@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Фитнес Клуб "Студенческий"</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 20px;
+    }
+    form {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: 20px auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #218838;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Фитнес Клуб "Студенческий"</h1>
+  <p>Твоя форма — твоя сила!</p>
+  <nav style="margin-top: 10px;">
+    <a href="about.html" style="color: #fff; margin: 0 15px; text-decoration: none;">О нас</a>
+    <a href="trainers.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Тренеры</a>
+  <a href="reviews.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Отзывы</a>
+  <a href="schedule.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Расписание
+  </a>
+   <a href="prices.html" style="color: #fff; margin: 0 15px; text-decoration: none;">Цены и Акции
+  </a>
+  <a href="faq.html" style="color: #fff; margin: 0 15px; text-decoration: none;">FAQ
+  </a>
+  </nav>
+</header>
+
+<main>
+<section id="gallery">
+  <h2>Наш зал</h2>
+  <div class="gallery">
+    <img src="https://fitproject.ru/upload/iblock/9be/9bea7c215648bf5e3f029b0da5dc4e2f.jpg" alt="Тренажёры" width="200" height="150">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv1eRinYWKqnrvC5b_wCMzx1ghIOsLjzy3jg&s" alt="Групповая тренировка" width="200" height="150">
+    <img src="https://arenaled.ru/images/2020/04/13/personal_training_zal3_large.jpg" alt="Персональный тренинг" width="200" height="150">
+  </div>
+</section>
+
+  <h2>Запись на тренировку или консультацию</h2>
+  <form action="#" method="post">
+    <label for="name">Имя:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Электронная почта:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="type">Тип записи:</label>
+    <select id="type" name="type" required>
+      <option value="training">Тренировка</option>
+      <option value="consultation">Консультация с тренером</option>
+    </select>
+
+    <label for="date">Выберите дату:</label>
+    <input type="date" id="date" name="date" required>
+
+    <label for="message">Комментарий:</label>
+    <textarea id="message" name="message" rows="4" placeholder="Уточните ваши цели или пожелания..."></textarea>
+
+    <button type="submit">Записаться</button>
+
+  </form>
+
+</main>
+<div style="background: #28a745; color: white; font-size: 20px; padding: 10px 0; overflow: hidden; margin-top: 40px;">
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    💪 Записывайся на тренировки прямо сейчас! Места ограничены! 💥
+  </marquee>
+</div>
+
+<footer>
+  <p>Контакты: +7 (777) 123-45-67 | Адрес: ул. Спортивная, 1, г. Алматы</p>
+</footer>
+  <div style="background: #28a745; color: white; font-size: 20px; padding: 10px 0; overflow: hidden; margin-top: 40px;">
+  <marquee behavior="scroll" direction="left" scrollamount="6">
+    💪 Записывайся на тренировки прямо сейчас! Места ограничены! 💥
+  </marquee>
+</div>
+
+
+
+</body>
+</html>
